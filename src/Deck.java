@@ -12,7 +12,7 @@ public class Deck {
 			for (int j = 0; j < 13; j++)
 				this.cards[i * 13 + j] = new Card(j + 1, suites[i]);
 		}
-		this.numOfCards = 20;
+		this.numOfCards = 52;
 	}
 
 	public int getNumOfCards() {
