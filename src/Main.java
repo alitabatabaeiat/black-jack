@@ -4,7 +4,7 @@ public class Main {
 		System.out.println(deck.getNumOfCards());
 		int i = 0;
 		for (Card card : deck.getCards()) {
-			System.out.println(i++ + ": " + card);
+			System.out.println(i++ + ": " + card.getValue() + " of " + card.getSuit());
 		}
 	}
 }

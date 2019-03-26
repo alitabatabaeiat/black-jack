@@ -6,7 +6,7 @@ public class Deck {
 	private static Random numberGenerator = new Random(123);
 
 	public Deck() {
-		String[] suites = {"spades", "hearts", "diamonds", "clubs"};
+		String[] suites = {"clubs", "diamonds", "hearts", "spades"};
 		this.cards = new Card[52];
 		for (int i = 0; i < suites.length; i++) {
 			for (int j = 0; j < 13; j++)
