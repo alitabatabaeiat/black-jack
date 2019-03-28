@@ -7,13 +7,9 @@ public class Main {
 		// 	System.out.println(i++ + ": " + card.getValue() + " of " + card.getSuit());
 		// }
 		deck.showCards();
-		deck.shuffle();
+		deck.deal();
 		deck.showCards();
-		deck.shuffle();
-		deck.shuffle();
-		deck.shuffle();
-		deck.shuffle();
-		deck.showCards();
+
 
 	}
 }

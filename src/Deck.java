@@ -57,9 +57,14 @@ public class Deck {
 		}
 	}
 
-	// public Card deal() {
-	//
-	// }
+	public Card deal() {
+		if(this.numOfCards == 0)
+			return null;
+		else {
+			this.numOfCards--;
+			return this.cards[this.numOfCards];
+		}
+	}
 	//
 	// public Card pickACard(int position) {
 	//
